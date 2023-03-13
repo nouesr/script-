@@ -1,0 +1,33 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "เก HUB", HidePremium = false, IntroText = "เก HUB",  SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "เก",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+
+
+OrionLib:MakeNotification({
+	Name = "เตือนi เก",
+	Content = "กดติดตามเก",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+Tab:AddButton({
+	Name = "เกเข้าหลัง)",
+	Callback = function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1442.381103515625, 62.277740478515625, 7.622732162475586)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "เกออกหลัง)",
+	Callback = function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1444.1885986328125, 61.87773895263672, 8.708222389221191)
+	  	end    
+})
+
+OrionLib:Init()
