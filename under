@@ -1,0 +1,322 @@
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("Underground War Gui") -- Creates the window
+
+local b = w:CreateFolder("Player") -- Creates the folder(U will put here your buttons,etc)
+
+b:Button("Fast Speed",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+    
+    end)
+    
+    b:Button("Slow Speed",function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+    
+    end)
+    
+    b:Button("InfJump",function()
+    --Subscribe To ArceusMODZ--
+
+local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+	
+end)
+    
+end)
+
+b:Button("Noclip Gui",function()
+local Workspace = game:GetService("Workspace")
+local CoreGui = game:GetService("CoreGui")
+local Players = game:GetService("Players")
+local Noclip = Instance.new("ScreenGui")
+local BG = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Toggle = Instance.new("TextButton")
+local StatusPF = Instance.new("TextLabel")
+local Status = Instance.new("TextLabel")
+local Credit = Instance.new("TextLabel")
+local Plr = Players.LocalPlayer
+local Clipon = false
+
+Noclip.Name = "Noclip"
+Noclip.Parent = game.CoreGui
+
+BG.Name = "BG"
+BG.Parent = Noclip
+BG.BackgroundColor3 = Color3.new(0.0980392, 0.0980392, 0.0980392)
+BG.BorderColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235)
+BG.BorderSizePixel = 2
+BG.Position = UDim2.new(0.149479166, 0, 0.82087779, 0)
+BG.Size = UDim2.new(0, 210, 0, 127)
+BG.Active = true
+BG.Draggable = true
+
+Title.Name = "Title"
+Title.Parent = BG
+Title.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Title.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.BorderSizePixel = 2
+Title.Size = UDim2.new(0, 210, 0, 33)
+Title.Font = Enum.Font.Highway
+Title.Text = "Noclip"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.FontSize = Enum.FontSize.Size32
+Title.TextSize = 30
+Title.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Title.TextStrokeTransparency = 0
+
+Toggle.Parent = BG
+Toggle.BackgroundColor3 = Color3.new(0.266667, 0.00392157, 0.627451)
+Toggle.BorderColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.BorderSizePixel = 2
+Toggle.Position = UDim2.new(0.152380958, 0, 0.374192119, 0)
+Toggle.Size = UDim2.new(0, 146, 0, 36)
+Toggle.Font = Enum.Font.Highway
+Toggle.FontSize = Enum.FontSize.Size28
+Toggle.Text = "Toggle"
+Toggle.TextColor3 = Color3.new(1, 1, 1)
+Toggle.TextSize = 25
+Toggle.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Toggle.TextStrokeTransparency = 0
+
+StatusPF.Name = "StatusPF"
+StatusPF.Parent = BG
+StatusPF.BackgroundColor3 = Color3.new(1, 1, 1)
+StatusPF.BackgroundTransparency = 1
+StatusPF.Position = UDim2.new(0.314285725, 0, 0.708661377, 0)
+StatusPF.Size = UDim2.new(0, 56, 0, 20)
+StatusPF.Font = Enum.Font.Highway
+StatusPF.FontSize = Enum.FontSize.Size24
+StatusPF.Text = "Status:"
+StatusPF.TextColor3 = Color3.new(1, 1, 1)
+StatusPF.TextSize = 20
+StatusPF.TextStrokeColor3 = Color3.new(0.333333, 0.333333, 0.333333)
+StatusPF.TextStrokeTransparency = 0
+StatusPF.TextWrapped = true
+
+Status.Name = "Status"
+Status.Parent = BG
+Status.BackgroundColor3 = Color3.new(1, 1, 1)
+Status.BackgroundTransparency = 1
+Status.Position = UDim2.new(0.580952346, 0, 0.708661377, 0)
+Status.Size = UDim2.new(0, 56, 0, 20)
+Status.Font = Enum.Font.Highway
+Status.FontSize = Enum.FontSize.Size14
+Status.Text = "off"
+Status.TextColor3 = Color3.new(0.666667, 0, 0)
+Status.TextScaled = true
+Status.TextSize = 14
+Status.TextStrokeColor3 = Color3.new(0.180392, 0, 0.431373)
+Status.TextWrapped = true
+Status.TextXAlignment = Enum.TextXAlignment.Left
+
+Credit.Name = "Credit"
+Credit.Parent = BG
+Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+Credit.BackgroundTransparency = 1
+Credit.Position = UDim2.new(0.195238099, 0, 0.866141737, 0)
+Credit.Size = UDim2.new(0, 128, 0, 17)
+Credit.Font = Enum.Font.SourceSans
+Credit.FontSize = Enum.FontSize.Size18
+Credit.Text = "Created by KingLuna"
+Credit.TextColor3 = Color3.new(1, 1, 1)
+Credit.TextSize = 16
+Credit.TextStrokeColor3 = Color3.new(0.196078, 0.196078, 0.196078)
+Credit.TextStrokeTransparency = 0
+Credit.TextWrapped = true
+
+Toggle.MouseButton1Click:connect(function()
+	if Status.Text == "off" then
+		Clipon = true
+		Status.Text = "on"
+		Status.TextColor3 = Color3.new(0,185,0)
+		Stepped = game:GetService("RunService").Stepped:Connect(function()
+			if not Clipon == false then
+				for a, b in pairs(Workspace:GetChildren()) do
+                if b.Name == Plr.Name then
+                for i, v in pairs(Workspace[Plr.Name]:GetChildren()) do
+                if v:IsA("BasePart") then
+                v.CanCollide = false
+                end end end end
+			else
+				Stepped:Disconnect()
+			end
+		end)
+	elseif Status.Text == "on" then
+		Clipon = false
+		Status.Text = "off"
+		Status.TextColor3 = Color3.new(170,0,0)
+	end
+end)
+
+end)
+
+local b = w:CreateFolder("Weapon") -- Creates the folder(U will put here your buttons,etc)
+
+b:Button("Big Reach",function()
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Reach = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+Frame.BorderColor3 = Color3.fromRGB(75, 75, 75)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0809101239, 0, 0.203790441, 0)
+Frame.Size = UDim2.new(0, 150, 0, 90)
+Frame.Active = true
+Frame.Draggable = true
+
+Reach.Name = "Reach"
+Reach.Parent = Frame
+Reach.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+Reach.BorderSizePixel = 0
+Reach.Position = UDim2.new(0, 0, 0.039088048, 0)
+Reach.Size = UDim2.new(0, 143, 0, 38)
+Reach.Font = Enum.Font.GothamBlack
+Reach.Text = "Big"
+Reach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reach.TextSize = 14.000
+Reach.MouseButton1Down:connect(function()
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://413861777"
+	sound.Parent = game:GetService("SoundService")
+	sound:Play()
+
+	wait()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "Need tool"; -- the title (ofc)
+		Text = "If you dont have weapon then get one and use this command"; -- what the text says (ofc)
+		Duration = 5; -- how long the notification should in secounds
+	})
+	for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren()) do
+		if v:isA("Tool") then
+			local a = Instance.new("SelectionBox",v.Handle)
+			v.Handle.Massless = true
+			v.Handle.Transparency = 1
+			a.Adornee = v.Handle
+			v.Handle.Size = Vector3.new(30, 30 , 30)
+			local selectionBox = Instance.new("SelectionBox",v.Handle)
+			selectionBox.Adornee = v.Handle
+			selectionBox.Color3 = Color3.new(0, 0.313725, 0.47451)
+		end
+	end
+ end)
+
+end)
+
+b:Button("Small Reach",function()
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Reach = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.0809101239, 0, 0.203790441, 0)
+Frame.Size = UDim2.new(0, 150, 0, 90)
+Frame.Active = true
+Frame.Draggable = true
+
+Reach.Name = "c%m gui by raz"
+Reach.Parent = Frame
+Reach.BorderSizePixel = 0
+Reach.Position = UDim2.new(0, 0, 0.039088048, 0)
+Reach.Size = UDim2.new(0, 143, 0, 38)
+Reach.Font = Enum.Font.GothamBlack
+Reach.Text = "Small"
+Reach.TextSize = 14.000
+Reach.MouseButton1Down:connect(function()
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://4771152040"
+	sound.Parent = game:GetService("SoundService")
+	sound:Play()
+
+	wait()
+	game.StarterGui:SetCore("SendNotification", {
+		Title = "how to use this amazing reach?"; -- the title (ofc)
+		Text = "equip your item first then press the button tell me if u want bigger reach or smaller imposter#4878"; -- what the text says (ofc)
+		Duration = 10; -- how long the notification should in secounds
+	})
+	for i,v in pairs(game:GetService'Players'.LocalPlayer.Character:GetChildren()) do
+		if v:isA("Tool") then
+			local a = Instance.new("SelectionSphere",v.Handle)
+			v.Handle.Massless = true
+			v.Handle.Transparency = 0
+			a.Adornee = v.Handle
+			v.Handle.Size = Vector3.new(7, 7 , 7)
+			local selectionBox = Instance.new("SelectionSphere",v.Handle)
+			selectionBox.Adornee = v.Handle
+			SurfaceSelection = 0
+		end
+	end
+ end)
+
+end)
+
+b:Button("AutoClicker",function()
+--Subscribe To ArceusMODZ--
+-- If Any Error Happened Let me Know--
+
+--// Setting \--
+local range = 1000
+
+--// Variable \--
+local player = game:GetService("Players").LocalPlayer
+
+--// Script \--
+game:GetService("RunService").RenderStepped:Connect(function()
+    local p = game.Players:GetPlayers()
+    for i = 2, #p do local v = p[i].Character
+        if v and v:FindFirstChild("Humanoid") and v.Humanoid.Health > 0 and v:FindFirstChild("HumanoidRootPart") and player:DistanceFromCharacter(v.HumanoidRootPart.Position) <= range then
+            local tool = player.Character and player.Character:FindFirstChildOfClass("Tool")
+            if tool and tool:FindFirstChild("Handle") then
+                tool:Activate()
+                for i,v in next, v:GetChildren() do
+                    if v:IsA("BasePart") then
+                        firetouchinterest(tool.Handle,v,0)
+                        firetouchinterest(tool.Handle,v,1)
+                    end
+                end
+            end
+        end
+    end
+end)
+
+end)
+
+local b = w:CreateFolder("Troll") -- Creates the folder(U will put here your buttons,etc)
+
+b:Button("TpTool",function()
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Equip to Click TP"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+
+end)
+
+b:Button("Noclip Underground",function()
+loadstring(game:HttpGet('https://pastebin.com/raw/QKbzxzSj'))()
+
+end)
+
+b:Button("Target Gui",function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\39\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\68\56\117\81\76\49\109\84\39\41\41\40\41\10")()
+
+end)
+
+b:DestroyGui()
