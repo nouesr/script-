@@ -67,66 +67,66 @@ TextButton.Text = "i Agree"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
-dahood.Name = "เกดาฮูส"
+dahood.Name = "dahood"
 dahood.Parent = ScrollingFrame
 dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
 dahood.Size = UDim2.new(0, 100, 0, 50)
 dahood.Font = Enum.Font.Bangers
-dahood.Text = "เกดาฮูส"
+dahood.Text = "เกDa Hood"
 dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 dahood.TextSize = 14.000
 
-ice.Name = "เกกาว"
+ice.Name = "ice"
 ice.Parent = ScrollingFrame
 ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
 ice.Size = UDim2.new(0, 100, 0, 50)
 ice.Font = Enum.Font.Bangers
-ice.Text = "เกกาว"
+ice.Text = "เกice sim"
 ice.TextColor3 = Color3.fromRGB(0, 0, 0)
 ice.TextSize = 14.000
 
-psx.Name = "เกpsx"
+psx.Name = "psx"
 psx.Parent = ScrollingFrame
 psx.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 psx.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
 psx.Size = UDim2.new(0, 100, 0, 50)
 psx.Font = Enum.Font.Bangers
-psx.Text = "เกpsx"
+psx.Text = "เกPSX"
 psx.TextColor3 = Color3.fromRGB(0, 0, 0)
 psx.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0.0500000007, 8)
 UICorner.Parent = ScrollingFrame
 
-door.Name = "เกdoor"
+door.Name = "door"
 door.Parent = ScrollingFrame
 door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
 door.Size = UDim2.new(0, 100, 0, 50)
 door.Font = Enum.Font.Bangers
-door.Text = "เกdoor"
+door.Text = "เกDoors"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
-prison.Name = "เกคีย์บอร์ด​อันท้าย"
+prison.Name = "prison"
 prison.Parent = ScrollingFrame
 prison.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 prison.Position = UDim2.new(0.666365564, 0, -3.7252903e-09, 0)
 prison.Size = UDim2.new(0, 100, 0, 50)
 prison.Font = Enum.Font.Bangers
-prison.Text = "เกคีย์บอร์ดอันทาย"
+prison.Text = "เกprison life"
 prison.TextColor3 = Color3.fromRGB(0, 0, 0)
 prison.TextSize = 14.000
 
-keyboard.Name = "เกprisonอัน5"
+keyboard.Name = "keyboard"
 keyboard.Parent = ScrollingFrame
 keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
 keyboard.Size = UDim2.new(0, 100, 0, 50)
 keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "เกprisonอัน5"
+keyboard.Text = "เก Keyboard"
 keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
 keyboard.TextSize = 14.000
 
@@ -135,7 +135,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
 TextLabel.Size = UDim2.new(0, 217, 0, 50)
 TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "TKGPL​HUB​"
+TextLabel.Text = "TKGPL​HUB​(Remake)"
 TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -146,7 +146,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "vเก1"
+TextLabel_2.Text = "TKGPL​HUB​"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -158,7 +158,7 @@ Button.BackgroundColor3 = Color3.fromRGB(172, 183, 255)
 Button.Position = UDim2.new(0, 0, 0.0823146701, 0)
 Button.Size = UDim2.new(0, 96, 0, 35)
 Button.Font = Enum.Font.SourceSans
-Button.Text = "Open/Close"
+Button.Text = "เปิดไง/ปิดไง
 Button.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button.TextScaled = true
 Button.TextSize = 14.000
@@ -186,10 +186,10 @@ local function KSAT_fake_script() -- dahood.LocalScript
 end
 coroutine.wrap(KSAT_fake_script)()
 local function QAWP_fake_script() -- ice.LocalScript 
-	local script = Instance.new('LocalScript', glue pice)
+	local script = Instance.new('LocalScript', ice)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kahack999/ka/main/Glue%20Piece%20Auto%20Farm.txt'),true))()
+		loadstring(game:HttpGet"https://pastebin.com/raw/qbn4YmJz")()
 	end)
 end
 coroutine.wrap(QAWP_fake_script)()
