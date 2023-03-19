@@ -67,23 +67,23 @@ TextButton.Text = "i Agree"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
-dahood.Name = "เกกาวพีช"
+dahood.Name = "เกดาฮูส"
 dahood.Parent = ScrollingFrame
 dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
 dahood.Size = UDim2.new(0, 100, 0, 50)
 dahood.Font = Enum.Font.Bangers
-dahood.Text = "เกกาวพีช"
+dahood.Text = "เกดาฮูส"
 dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 dahood.TextSize = 14.000
 
-ice.Name = "เกเรือ"
+ice.Name = "เกกาว"
 ice.Parent = ScrollingFrame
 ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
 ice.Size = UDim2.new(0, 100, 0, 50)
 ice.Font = Enum.Font.Bangers
-ice.Text = "เกเรือ"
+ice.Text = "เกกาว"
 ice.TextColor3 = Color3.fromRGB(0, 0, 0)
 ice.TextSize = 14.000
 
@@ -110,23 +110,23 @@ door.Text = "เกdoor"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
-prison.Name = "เกคีย์บอร์ด​"
+prison.Name = "เกคีย์บอร์ด​อันท้าย"
 prison.Parent = ScrollingFrame
 prison.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 prison.Position = UDim2.new(0.666365564, 0, -3.7252903e-09, 0)
 prison.Size = UDim2.new(0, 100, 0, 50)
 prison.Font = Enum.Font.Bangers
-prison.Text = "เกคีย์บอร์ด"
+prison.Text = "เกคีย์บอร์ดอันทาย"
 prison.TextColor3 = Color3.fromRGB(0, 0, 0)
 prison.TextSize = 14.000
 
-keyboard.Name = "เกบล็อกฟุต"
+keyboard.Name = "เกprisonอัน5"
 keyboard.Parent = ScrollingFrame
 keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
 keyboard.Size = UDim2.new(0, 100, 0, 50)
 keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "เกบล็อกฟุต"
+keyboard.Text = "เกprisonอัน5"
 keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
 keyboard.TextSize = 14.000
 
@@ -177,19 +177,19 @@ Framemain.Visible = false
 
 -- Scripts:
 
-local function KSAT_fake_script() -- gluepice.LocalScript 
-	local script = Instance.new('LocalScript', gluepice)
+local function KSAT_fake_script() -- dahood.LocalScript 
+	local script = Instance.new('LocalScript', dahood)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kahack999/ka/main/Glue%20Piece%20Auto%20Farm.txt'),true))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
 	end)
 end
 coroutine.wrap(KSAT_fake_script)()
-local function QAWP_fake_script() -- buildaboat.LocalScript 
-	local script = Instance.new('LocalScript', buildaboat)
+local function QAWP_fake_script() -- ice.LocalScript 
+	local script = Instance.new('LocalScript', glue pice)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/Kahack999/ka/main/Glue%20Piece%20Auto%20Farm.txt'),true))()
 	end)
 end
 coroutine.wrap(QAWP_fake_script)()
@@ -209,19 +209,19 @@ local function LUWBX_fake_script() -- door.LocalScript
 	end)
 end
 coroutine.wrap(LUWBX_fake_script)()
-local function IIPPU_fake_script() -- keyboard.LocalScript 
-	local script = Instance.new('LocalScript', keyboard)
+local function IIPPU_fake_script() -- prison.LocalScript 
+	local script = Instance.new('LocalScript', prison)
 
 	script.Parent.MouseButton1Click:Connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 	end)
 end
 coroutine.wrap(IIPPU_fake_script)()
-local function CMRI_fake_script() -- bloxfruit​.LocalScript 
-	local script = Instance.new('LocalScript', bloxfruit​)
+local function CMRI_fake_script() -- keyboard.LocalScript 
+	local script = Instance.new('LocalScript', keyboard)
 
 	script.Parent.MouseButton1Click:Connect(function()
-loadstring(game:HttpGet("https://zKuzy.link/ZeeHub.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 	end)
 end
 coroutine.wrap(CMRI_fake_script)()
