@@ -67,66 +67,66 @@ TextButton.Text = "i Agree"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 14.000
 
-dahood.Name = "เกชอบเข้าหลัง"
+dahood.Name = "dahood"
 dahood.Parent = ScrollingFrame
 dahood.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 dahood.Position = UDim2.new(-0.00284213573, 0, 0, 0)
 dahood.Size = UDim2.new(0, 100, 0, 50)
 dahood.Font = Enum.Font.Bangers
-dahood.Text = "เกเข้าหลัง"
+dahood.Text = "Da Hood"
 dahood.TextColor3 = Color3.fromRGB(0, 0, 0)
 dahood.TextSize = 14.000
 
-ice.Name = "reset"
+ice.Name = "ice"
 ice.Parent = ScrollingFrame
 ice.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 ice.Position = UDim2.new(-0.00284213573, 0, 0.178977266, 0)
 ice.Size = UDim2.new(0, 100, 0, 50)
 ice.Font = Enum.Font.Bangers
-ice.Text = "reset"
+ice.Text = "Icecreamsim(OP)"
 ice.TextColor3 = Color3.fromRGB(0, 0, 0)
 ice.TextSize = 14.000
 
-psx.Name = "เกแน่"
+psx.Name = "psx"
 psx.Parent = ScrollingFrame
 psx.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 psx.Position = UDim2.new(0.350273609, 0, 0.178977266, 0)
 psx.Size = UDim2.new(0, 100, 0, 50)
 psx.Font = Enum.Font.Bangers
-psx.Text = "เกแน่"
+psx.Text = "PSX"
 psx.TextColor3 = Color3.fromRGB(0, 0, 0)
 psx.TextSize = 14.000
 
 UICorner.CornerRadius = UDim.new(0.0500000007, 8)
 UICorner.Parent = ScrollingFrame
 
-door.Name = "เกหรอ"
+door.Name = "door"
 door.Parent = ScrollingFrame
 door.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 door.Position = UDim2.new(0.350273609, 0, -3.7252903e-09, 0)
 door.Size = UDim2.new(0, 100, 0, 50)
 door.Font = Enum.Font.Bangers
-door.Text = "เกหรอ"
+door.Text = "Doors"
 door.TextColor3 = Color3.fromRGB(0, 0, 0)
 door.TextSize = 14.000
 
-prison.Name = "กดเก"
+prison.Name = "prison"
 prison.Parent = ScrollingFrame
 prison.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 prison.Position = UDim2.new(0.666365564, 0, -3.7252903e-09, 0)
 prison.Size = UDim2.new(0, 100, 0, 50)
 prison.Font = Enum.Font.Bangers
-prison.Text = "กดเก"
+prison.Text = "prison life"
 prison.TextColor3 = Color3.fromRGB(0, 0, 0)
 prison.TextSize = 14.000
 
-keyboard.Name = "กดsus"
+keyboard.Name = "keyboard"
 keyboard.Parent = ScrollingFrame
 keyboard.BackgroundColor3 = Color3.fromRGB(32, 60, 111)
 keyboard.Position = UDim2.new(0.666365564, 0, 0.178977266, 0)
 keyboard.Size = UDim2.new(0, 100, 0, 50)
 keyboard.Font = Enum.Font.Bangers
-keyboard.Text = "กดsus"
+keyboard.Text = "PC Keyboard"
 keyboard.TextColor3 = Color3.fromRGB(0, 0, 0)
 keyboard.TextSize = 14.000
 
@@ -135,7 +135,7 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel.Position = UDim2.new(0, 0, -0.284090906, 0)
 TextLabel.Size = UDim2.new(0, 217, 0, 50)
 TextLabel.Font = Enum.Font.Bangers
-TextLabel.Text = "TKGPL​HUB​"
+TextLabel.Text = "gay hub(Remake)"
 TextLabel.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -146,7 +146,7 @@ TextLabel_2.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
 TextLabel_2.Position = UDim2.new(0.626112759, 0, -0.284090906, 0)
 TextLabel_2.Size = UDim2.new(0, 130, 0, 50)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "vเก1"
+TextLabel_2.Text = "v1"
 TextLabel_2.TextColor3 = Color3.fromRGB(238, 238, 238)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -173,3 +173,162 @@ Framemain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Framemain.Position = UDim2.new(0.515804768, 0, 0.576869726, 0)
 Framemain.Size = UDim2.new(0, 294, 0, 149)
 Framemain.Visible = false
+
+
+-- Scripts:
+
+local function KSAT_fake_script() -- dahood.LocalScript 
+	local script = Instance.new('LocalScript', dahood)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+	end)
+end
+coroutine.wrap(KSAT_fake_script)()
+local function QAWP_fake_script() -- ice.LocalScript 
+	local script = Instance.new('LocalScript', ice)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet"https://pastebin.com/raw/qbn4YmJz")()
+	end)
+end
+coroutine.wrap(QAWP_fake_script)()
+local function PMAC_fake_script() -- psx.LocalScript 
+	local script = Instance.new('LocalScript', psx)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+	end)
+end
+coroutine.wrap(PMAC_fake_script)()
+local function LUWBX_fake_script() -- door.LocalScript 
+	local script = Instance.new('LocalScript', door)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+	end)
+end
+coroutine.wrap(LUWBX_fake_script)()
+local function IIPPU_fake_script() -- prison.LocalScript 
+	local script = Instance.new('LocalScript', prison)
+
+	script.Parent.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+	end)
+end
+coroutine.wrap(IIPPU_fake_script)()
+local function CMRI_fake_script() -- keyboard.LocalScript 
+	local script = Instance.new('LocalScript', keyboard)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end)
+end
+coroutine.wrap(CMRI_fake_script)()
+local function CZEFOW_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(CZEFOW_fake_script)()
+local function PLQUY_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(PLQUY_fake_script)()
+local function QUVPVM_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	wait(2)
+	
+	local function callback(Text)
+		if Text == "Button1 text" then
+			print ("Answer")
+		elseif Text == ("Button2 text") then
+			print ("Answer2")
+		end
+	end
+	
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	--
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "Respond by Developer";
+		Text = "if you click script after wait for it to appear";
+		Icon = "";
+		Duration = 10;
+		Button1 = "OK";
+		Callback = NotificationBindable;
+	})
+end
+coroutine.wrap(QUVPVM_fake_script)()
+local function QARRZ_fake_script() -- TextLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_2)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(QARRZ_fake_script)()
+local function MQWAD_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+		counter = counter + 0.01
+	end
+end
+coroutine.wrap(MQWAD_fake_script)()
+local function EWQQUPH_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	local Frame = script.Parent.Parent.Frame
+	local Button = script.Parent
+	
+	Button.MouseButton1Click:Connect(function()
+		if Frame.Visible == false then
+			Frame.Visible = true
+		else
+			Frame.Visible = false
+		end
+		end)
+end
+coroutine.wrap(EWQQUPH_fake_script)()
+local function NAQL_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local Frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		Frame.Visible = false
+	end)
+end
+coroutine.wrap(NAQL_fake_script)()
