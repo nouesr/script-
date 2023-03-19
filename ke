@@ -185,8 +185,8 @@ local function KSAT_fake_script() -- gluepice.LocalScript
 	end)
 end
 coroutine.wrap(KSAT_fake_script)()
-local function QAWP_fake_script() -- build a boat.LocalScript 
-	local script = Instance.new('LocalScript', build a boat)
+local function QAWP_fake_script() -- buildaboat.LocalScript 
+	local script = Instance.new('LocalScript', buildaboat)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/XRoLLu/UWU/main/BUILD%20A%20BOAT%20FOR%20TREASURE.lua'))()
