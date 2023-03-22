@@ -1,0 +1,5 @@
+Level = 1
+while wait() do
+    Level = Level + 3
+    game:GetService("Players").LocalPlayer.PlayerGui.StatsGUI.Level.Level.Text = "Level ".. Level
+    end
