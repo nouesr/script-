@@ -1,0 +1,152 @@
+if getgenv().SenaBleYesYes == true then
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/MiniBeta666/Kavo-Mobile/main/KavoMobile.lua", true))()
+local colors = {SchemeColor = Color3.fromRGB(252, 240, 3),
+    Background = Color3.fromRGB(252, 3, 227),
+    Header = Color3.fromRGB(3, 23, 252),
+    TextColor = Color3.fromRGB(252, 3, 244),
+    ElementColor = Color3.fromRGB(0, 0, 0)
+    }
+local Window = Library.CreateLib("TKGPL​Hub", colors)
+local Tab = Window:NewTab("Blox fruit")
+local Tab2 = Window:NewTab("Pet Simulator X")
+local Tab3 = Window:NewTab("Arsenal")
+local Tab4 = Window:NewTab("exc")
+local Tab5 = Window:NewTab("Settings")
+local Section = Tab:NewSection("Credits : MiniBeta666 , COCOPJ")
+local Section2 = Tab2:NewSection("Credits : MiniBeta666 , COCOPJ")
+local Section3 = Tab3:NewSection("Credits : MiniBeta666 , COCOPJ")
+local Section4 = Tab4:NewSection("!"..'-'.."!")
+Section:NewButton("Zamex", "รันหน้ามึง", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Sixnumz/ZamexMobile/main/Zamex_Mobile.lua'))()
+end)
+Section:NewButton("Shiba Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/ChibaHubcomeback/main/Chibacomebackbeta.txt'))()
+end)
+Section:NewButton("CFrame Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CFrame3310/CFrameHub/main/BloxFruit.lua"))()
+end)
+Section:NewButton("Crimson Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TirSANX/CrimsonHUB/main/C_Loader'))()
+end)
+Section:NewButton("Zen Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/bfmobile", true))()
+end)
+Section:NewButton("Nub.xyz", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://rawscripts.net/raw/UPDATE-16-Blox-Fruits-Nub-V1-Hub-4583'))()
+end)
+Section:NewButton("One X Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xOne2/Blox-Fruits/main/README.md"))()
+end)
+Section:NewButton("Zama Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RimuruScripter/Zama-Hub/main/LoadingScriptNew"))()
+end)
+Section:NewButton("String Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/StringV2/StringHub/main/BF.txt", true))()
+end)
+Section:NewButton("Table Hub(โต๊ะ Hub)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AltsegoD/scripts/egoD/tablekhoc.lua"))()
+end)
+Section:NewButton("Mako Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/KindIhave/main-Bf/main/MAKOHUB.txt'))()
+end)
+Section:NewButton("Playback X Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeaPchX2/Playback-X-HUB/main/Protected.lua.txt"))()
+end)
+Section:NewButton("2x Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/armch063/2xHub-/main/README.md', true))()
+end)
+Section:NewButton("Mukuro", "ButtonInfo", function()
+    _G.Beta = true
+loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+end)
+Section:NewButton("Mango Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Hub-Blox-Fruits-None-Beta"))()
+end)
+Section:NewButton("Tawan X Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kill55547/TAWAN_HUB/main/hub.lua.txt', true))()
+end)
+Section:NewButton("Neva Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+end)
+Section:NewButton("HoHo Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+Section:NewButton("Kaitun SAZX", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GooD1020/Update_kaitan_sazx_bata/main/SAZX.md"))()
+end)
+Section:NewButton("Yaretzi Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DeletedUserCode/Yaretzi/main/GameSupport.lua"))()
+end)
+Section2:NewButton("BackTrap(Key Bypassed)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://blacktrap.org/blacktrap/scripts/psxmobile.lua", true))()
+end)
+Section2:NewButton("Jmes", "ButtonInfo", function()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+end)
+Section2:NewButton("Project WD(Key Require)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+end)
+Section2:NewButton("Cloud Hub(Key Require)", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+end)
+Section3:NewButton("Owl Hub", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+end)
+Section3:NewButton("AdvanceTech v3", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YellowGreg/UltimateCromaSin-Arsenal-Gui/main/AdvanceTechV3.lua", true))()
+end)
+Section3:NewButton("Arsenal - v1", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/F2DsWjyx", true))()
+end)
+Section3:NewButton("Arsenal - v2", "ButtonInfo", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/rEd6PbYW", true))()
+end)
+Section3:NewButton("Pwner Hub", "เกว่ะ", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Maikderninja/Maikderninja/main/PWNERHUB.lua", true))()
+end)
+Section3:NewButton("TKGPL​Hub", "เกว่ะ", function()
+Section5:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.RightControl, function()
+	Library:ToggleUI()
+end)
+-- Gui to Lua
+-- Version: 3.2
+ 
+-- Instances:
+ 
+local JDDBGjeiJ837 = Instance.new("ScreenGui")
+local uev726HSBX727JSjs = Instance.new("ImageButton")
+local idhsbIwujJXHRH828 = Instance.new("UICorner")
+ 
+--Properties:
+ 
+JDDBGjeiJ837.Name = "JDDBGjeiJ837"
+JDDBGjeiJ837.Parent = game:GetService("CoreGui")
+ 
+uev726HSBX727JSjs.Name = "uev726HSBX727JSjs"
+uev726HSBX727JSjs.Parent = JDDBGjeiJ837
+uev726HSBX727JSjs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+uev726HSBX727JSjs.Position = UDim2.new(0.786845326, 0, 0.16770187, 0)
+uev726HSBX727JSjs.Size = UDim2.new(0, 59, 0, 59)
+uev726HSBX727JSjs.Image = ""
+ 
+idhsbIwujJXHRH828.Name = "idhsbIwujJXHRH828"
+idhsbIwujJXHRH828.Parent = uev726HSBX727JSjs
+ 
+-- Scripts:
+ 
+local function WOUQMT_fake_script() -- uev726HSBX727JSjs.jdb827JSB 
+	local script = Instance.new('LocalScript', uev726HSBX727JSjs)
+ 
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Image = "rbxassetid://12726545155"
+ 
+script.Parent.MouseButton1Click:Connect(function()
+Library:ToggleUI()
+end)
+end
+coroutine.wrap(WOUQMT_fake_script)()
+ 
+else
+        game.Players.LocalPlayer:Kick("Please Dont Bypass The Key System")
+    end
