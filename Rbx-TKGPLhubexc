@@ -100,12 +100,12 @@ EditorFrame.BackgroundTransparency = 1.000
 EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
 EditorFrame.Size = UDim2.new(1, 0, 1, 0)
 EditorFrame.ZIndex = 3
-EditorFrame.BottomImage = "rbxassetid://148970562"
+EditorFrame.BottomImage = "rbxassetid://12934269529"
 EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
 EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-EditorFrame.MidImage = "rbxassetid://148970562"
+EditorFrame.MidImage = "rbxassetid://12934269529"
 EditorFrame.ScrollBarThickness = 5
-EditorFrame.TopImage = "rbxassetid://148970562"
+EditorFrame.TopImage = "rbxassetid://12934269529"
 
 Source.Name = "Source"
 Source.Parent = EditorFrame
