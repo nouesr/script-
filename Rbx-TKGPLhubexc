@@ -532,7 +532,7 @@ title_4.BackgroundTransparency = 1.000
 title_4.Position = UDim2.new(0.00870821718, 0, 0, 0)
 title_4.Size = UDim2.new(0, 18, 0, 24)
 title_4.ZIndex = 110
-title_4.Image = "http://www.roblox.com/asset/?id=7641125882"
+title_4.Image = "http://www.roblox.com/asset/?id=12934269529"
 title_4.ImageRectSize = Vector2.new(138, 167)
 
 -- Scripts:
@@ -812,3 +812,8 @@ while true do
         end
     end
 end
+game.StarterGui:SetCore("SendNotification", {
+      Icon = "rbxassetid://12934269529";
+      Title = "Ga Gay", 
+      Text = "Gay"
+  })
