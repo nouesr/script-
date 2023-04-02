@@ -62,7 +62,7 @@ UICorner.Parent = Background
 ImageLabel.Parent = Background
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Size = UDim2.new(0, 71, 0, 67)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=11442644269"
+ImageLabel.Image = "http://www.roblox.com/asset/?id=12934269529"
 ImageLabel.ImageColor3 = Color3.fromRGB(176, 53, 48)
  
 UICorner_2.CornerRadius = UDim.new(1, 9)
@@ -72,7 +72,7 @@ ImageLabel_2.Parent = Background
 ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_2.Position = UDim2.new(0.736842096, 0, 0, 0)
 ImageLabel_2.Size = UDim2.new(0, 62, 0, 55)
-ImageLabel_2.Image = "rbxassetid://9524079125"
+ImageLabel_2.Image = "rbxassetid://12934269529"
  
 UICorner_3.CornerRadius = UDim.new(1, 9)
 UICorner_3.Parent = ImageLabel_2
@@ -81,7 +81,7 @@ ImageLabel_3.Parent = Background
 ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_3.Position = UDim2.new(0.835725665, 0, 0, 0)
 ImageLabel_3.Size = UDim2.new(0, 53, 0, 55)
-ImageLabel_3.Image = "rbxassetid://9288455303"
+ImageLabel_3.Image = "rbxassetid://12934269529"
  
 UICorner_4.CornerRadius = UDim.new(1, 9)
 UICorner_4.Parent = ImageLabel_3
@@ -99,7 +99,7 @@ ImageLabel_5.Parent = Background
 ImageLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel_5.Position = UDim2.new(0.103668272, 0, 1.49011612e-08, 0)
 ImageLabel_5.Size = UDim2.new(0, 42, 0, 41)
-ImageLabel_5.Image = "rbxassetid://5651963627"
+ImageLabel_5.Image = "rbxassetid://12934269529"
 ImageLabel_5.ImageColor3 = Color3.fromRGB(185, 185, 185)
  
 UICorner_6.CornerRadius = UDim.new(0, 20)
